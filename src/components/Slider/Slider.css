@@ -8,7 +8,8 @@
     width: 300vw;
     height: 100%;
     display: flex;
-    transform: translateX(-500px);
+    transition: all 0.8s ease  ;
+    /* transform: translateX(-0px); */
 }
 
 .container img{
@@ -34,4 +35,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
