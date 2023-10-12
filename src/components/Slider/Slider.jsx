@@ -16,8 +16,12 @@ const SliderComponent = () => {
             <img src={data[2]} alt='carousel'/>
         </div>
        <div className='icons'>
-        <div className='icon'></div>
-        <div className='icon'></div>
+        <div className='icon'>
+          <WestOutlined/>
+        </div>
+        <div className='icon'>
+          <EastOutlined/>
+        </div>
        </div>
 
     </div>
