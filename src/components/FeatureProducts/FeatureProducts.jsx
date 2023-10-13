@@ -29,7 +29,7 @@ const FeatureProducts = () => {
         </div>
         <div className='bottom'>
             {data.map(item => (
-                <Card item={data} key={item?.id}/>
+                <Card item={item} key={item?.id}/>
             ))}
         </div>
     </div>
